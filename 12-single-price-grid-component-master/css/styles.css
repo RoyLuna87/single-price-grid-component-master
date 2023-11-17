@@ -1,0 +1,129 @@
+:root{   
+ --Cyan:          hsl(179, 62%, 43%);
+ --Bright-Yellow: hsl(71, 73%, 54%);
+ --Light-Gray:    hsl(204, 43%, 93%);
+ --Grayish-Blue:  hsl(218, 22%, 67%);  
+ --OtherCyan:     hsl(180, 45%, 51%);
+ --textCyan:      #8bdedf;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    background-color: var(--Light-Gray);
+    font-family: 'Karla', sans-serif;
+}
+
+.caja{
+    height: 60rem;
+    width: 100rem;
+    background-color: white;
+    border-radius: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.community{
+    background-color: white;
+    border-top-left-radius: 2rem;
+}
+
+.acomodo{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.Subscription{
+    height: 30rem;
+    width:  43rem;
+    background-color: var(--Cyan);
+    border-bottom-left-radius: 2rem;
+    line-height: 30px;
+    color: white;
+    padding-left: 7rem;    
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.month span{
+    color:white;
+    font-size: 5rem;
+    padding-right: 2rem;
+}
+
+.month p{
+    display: flex;
+    color:var(--textCyan);   
+}
+
+.alinear-boton{
+    display: flex;
+}
+
+.WhyUs{
+    height: 30rem;
+    width:  50rem;
+    background-color: var(--OtherCyan);
+    border-bottom-right-radius: 2rem;
+}
+
+.WhyUs{
+    color: var(--textCyan);
+    line-height: 2.7rem;
+    font-size: 2rem;
+}
+
+h3{
+    color:white;
+    padding-left: 4rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.boton{
+    background-color: var(--Bright-Yellow);
+    color: white;
+    padding: 2rem 5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 1rem;
+    width: 60%;
+    text-align: center;
+    border: none;
+}
+
+.community{
+    padding-top: 3rem;
+    padding-left: 7rem;
+}
+
+.community p{
+    color: var(--Grayish-Blue);
+    line-height: 1.1rem;
+    font-size: 2.3rem;
+}
+
+h1{
+    color:var(--Cyan);
+    font-size: 3rem;
+}
+
+h2{
+    color: var(--Bright-Yellow);
+}
+
+.attribution{
+    text-align: center;
+    margin-top: 45%;
+}
